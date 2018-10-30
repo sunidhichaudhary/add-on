@@ -1,5 +1,5 @@
 # add-on
-This is a repo to add data to a database using flask and flask-sqlalchemy.
+This is a repository to add data to a database using flask and flask-sqlalchemy.
 First Install Flask,flask_table,wtforms,sqlalchemy
 Install dbBrowser for sqllite
 Run python db_creator.py first and then main.py
