@@ -30,7 +30,7 @@ def new_data():
     form = roomForm(request.form)
 
     if request.method == 'POST' and form.validate():
-        # save the album
+        # Save the album
         rooms = Room()
         save_changes(rooms, form, new=True)
         flash(' created successfully!')
