@@ -27,7 +27,6 @@ class Room(Base):
     flatno = Column(Integer, primary_key=True)
     rent = Column(Integer)
     area = Column(Integer)
-   # bathrooms = Column(Integer)
     electricity = Column(String)
     maintain = Column(String)
 
